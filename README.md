@@ -26,8 +26,16 @@ def binaryToDecimal(binary: str):
     return int(binary,2)
 ```
 
-### Decimal numbers to Binary
+#### Decimal numbers to Binary
 ```python
 def decimalToBinary(n):
     return bin(n).replace("0b", "")
+```
+
+### Test cases
+```python
+Test_Case_1 = binaryToDecimal('111') # 7
+Test_Case_2 = binaryToDecimal('10111') # 23
+Test_Case_3 = decimalToBinary(100) # 1100100
+Test_Case_4 = decimalToBinary(69) # 1000101
 ```
