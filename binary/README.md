@@ -6,6 +6,9 @@ def binaryToDecimal(binary: str):
 
 def decimalToBinary(n):
     return bin(n).replace("0b", "")
+
+Test_Case_1 = binaryToDecimal('111') # 7
+Test_Case_2 = decimalToBinary(100) # 1100100
 ```
 
 ## Binary Search
